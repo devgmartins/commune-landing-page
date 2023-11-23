@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--background-color);
+    --primary-color: #372865;
+    --second-color: #353252;
+    --background-color: #f6f9fe;
+}
+
+/*NavBar*/
+
+.logo{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+    right: 100px;
+    top: 70px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 15px;
+    font-size: 24px;
+}
+
+.join-btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/*Main*/
+
+.container{
+    position: relative;
+    left: 100px;
+    top: 300px;
+}
+
+.learn-more-p span{
+    font-size: 30px;
+    color: #d2c7ec;
+    background-color: var(--primary-color);
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+.learn-more-p a{
+    text-decoration: underline;
+    background-color: var(--primary-color);
+    color: #d2c7ec;
+}
+
+.main-texts{
+    position: absolute;
+    top: 80px;
+}
+
+.main-texts h1{
+    font-size: 80px;
+    color: var(--second-color);
+}
+
+.main-texts p{
+    font-weight: 400;
+    font-size: 25px;
+    color: #484847;
+}
+
+/*Img*/
+
+.illustration img{
+    position: absolute;
+    left: 1200px;
+    width: 500px;
+    bottom: 0;
+    top: -50px;
+}
+
+/*Form*/
+
+.send-to-join-btn{
+    position: absolute;
+    top: 430px;
+}
+
+.send-to-join-btn input{
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 25px;
+    padding-right: 150px;
+    border-radius: 10px;
+    color: #adaeae;
+}
+
+.send-to-join-btn button{
+    font-size: 20px;
+    padding: 25px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin-left: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+footer{
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+}
+
+.footer-text{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--second-color);
+}
+
+.logos img{
+    width: 60px;
+    margin: 10px;
+}
+
